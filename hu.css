@@ -93,9 +93,9 @@ padding-top: 20px;
 .discover{
     display: flex;
     justify-content: space-between;
-    /* animation-name: anim1; */
-    /* animation-duration: 2s; */
-    /* animation-iteration-count: infinite; */
+    animation-name: anim1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
     
     
 
@@ -509,7 +509,9 @@ input{
         margin-left: 60px;
         
     }
-    
+    .mrigy img{
+        display: none;
+    }
 
     .header i{
         font-size: 14px;
