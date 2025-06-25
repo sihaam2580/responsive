@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+}
+.header h1{
+    color: white;
+    padding: 10px 15px;
+}
+.header a{
+    color: white;
+}
+.header span{
+    color: chocolate;
+}
+.sign{
+background-color:transparent ;
+
+    color: white;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 60px;
+}   
+.btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-left: 60px;
+    
+}
+.Q-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.W h1{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.W span{
+    color: chocolate;
+}
+.W input{
+    margin: 10px;
+    width: 400px;
+    
+}
+.btn-n{
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    color: white;
+    border-radius: 17px;
+    
+
+}
+.r{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.color{
+    background-color: rgb(0, 0, 0);
+    /* margin-bottom: 20px; */
+    height: 100%;
+    margin-top: 30px;
+    
+
+
+    
+}
+.fourdiv{
+    display:flex;
+    gap: 70px;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 70px;
+    color: white;
+    
+    
+}
+.bems i{
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.header i{
+    display: none;
+}
+@media(max-width:991px){
+    .header ul{
+        display: none;
+    }
+    .header button{
+        display: none;
+    }
+    .Q-parent{
+
+        margin-left: 30px;
+    }
+    .Q-parent form{
+        margin-left: 30px;
+    }
+     .fourdiv {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+      .bems, .about , .company , .contact{
+font-size: 14px;
+      }
+      .bems i{
+        font-size: 18px;
+      }
+}
