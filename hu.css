@@ -162,11 +162,13 @@ transform: scale(1);
     gap: 50px;
     margin-left: 140px;
     position: relative;
+
     
    
 
 
 }
+
 .cops{
 
     width: 200px;
@@ -643,7 +645,7 @@ input {
         /* height: 300px; */
         gap: 20px;
     }
-}
+
 
 
 

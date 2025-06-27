@@ -183,5 +183,17 @@ height: 400px;
         .bems i{
             font-size: 18px;
         }
+        
+
+}
+@media(max-width:991px){
+    .main{
+        width: 900px;
+        height: 400px;
+    }
+    .left-parent{
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
